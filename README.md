@@ -22,7 +22,7 @@ A simple web application that cleans up messy table of contents in Word document
 
 1. **Clone or download this repository**
    ```bash
-   git clone https://github.com/yourusername/toc-formatter.git
+   git clone https://github.com/obilogy/toc-formatter.git
    cd toc-formatter
    ```
 
@@ -79,7 +79,7 @@ The web app uses your existing Python TOC formatter as a subprocess:
 ```
 toc-formatter/
 ├── python/
-│   ├── toc_formatter.py    # Your original Python script
+│   ├── toc_formatter.py    # Python-based Table of Contents formatter
 │   └── requirements.txt    # Python dependencies
 ├── pages/
 │   ├── api/
@@ -94,10 +94,6 @@ toc-formatter/
 
 ## Troubleshooting
 
-**Python not found error:**
-- Make sure Python is installed and accessible as `python3`
-- On Windows, you might need to use `python` instead of `python3`
-
 **Permission errors:**
 - Make sure the `uploads` and `outputs` directories exist and are writable
 
@@ -105,22 +101,6 @@ toc-formatter/
 - Current limit is 10MB per file
 - Adjust in `pages/api/upload.js` if needed
 
-## GitHub Setup
-
-To push this to GitHub:
-
-1. **Create a new repository on GitHub**
-
-2. **Initialize and push**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/toc-formatter.git
-   git push -u origin main
-   ```
-
 ## License
 
-MIT License - feel free to fork and modify!
+MIT License
