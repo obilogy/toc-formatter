@@ -96,6 +96,7 @@ toc-formatter/
 
 **Permission errors:**
 - Make sure the `uploads` and `outputs` directories exist and are writable
+- If receive "spawn" /api/process 500 error, please change spawn(python3) in process.js to the right python command, e.g. "py"
 
 **File size limits:**
 - Current limit is 10MB per file
