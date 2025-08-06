@@ -1,4 +1,4 @@
-# TOC Formatter Web App
+# TOCtee Formatter Web App
 
 A simple web application that cleans up messy table of contents in Word documents by removing arrows/dots and applying professional dot leaders.
 
